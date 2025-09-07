@@ -1,0 +1,11 @@
+formulário:
+<label for="data_nascimento">data de nascimento</label>
+            <input type="date" id="data_nascimento" name="data_nascimento">
+            <br>
+            <label for="sexo">sexo</label>
+            <select name="sexo" id="sexo">
+                <option value="Feminino">Feminino</option>
+                <option value="Masculino">Masculino</option>
+                <option value="outro">outro</option>
+            </select>
+            <br>

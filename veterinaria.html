@@ -4,6 +4,29 @@
 <html>
 
 <head>
+    <SCript>
+        function ProcessaForm() {
+            alert("DEU CERTO CARALHO 2")
+            var nome = document.getElementById("nome");
+            var sobrenome = document.getElementById("sobrenome");
+            var cpf = document.getElementById("cpf");
+            var celular = document.getElementById("celular");
+            var Email = document.getElementById("Email");
+            var senha = document.getElementById("senha");
+            var repita_senha = document.getElementById("repita_senha");
+            console.log("nome " + nome.Value)
+            console.log("sobrenome " + sobrenome.Value)
+            console.log("cpf " + cpf.Value)
+            console.log("celular " + celular.Value)
+            console.log("Email " + Email.Value)
+            console.log("senha " + senha.Value)
+            console.log("repita_senha " + repita_senha.Value)
+
+            var divresultado = document.getElementById("div-resultado");
+            divresultado.innerHTML = "<p>writtin on div</p>";
+        }
+    </SCript>
+
     <title>Melhor Amigo Clínica Veterinária</title>
     <style>
         body {
@@ -64,19 +87,22 @@
             <label for="celular">Telefone para contato</label>
             <input type="tel" id="celular" name="celular" pattern="[0-9]{2}[0-9]{1}[0-9]{4}[0-9]{4}">
             <br>
-            <label for="E-mail">E-mail</label>
-            <input type="email" id="E-mail" name="E-mail">
+            <label for="Email">E-mail</label>
+            <input type="email" id="Email" name="Email">
             <br>
-            
+
             <label for="senha">Cadastre uma senha</label>
             <input type="password" id="senha" name="senha">
             <br>
             <label for="repita_senha">repita sua senha</label>
             <input type="password" id="repita_senha" name="repita_senha">
             <br>
-            <input type="submit">
+            <button type="button" onclick="ProcessaForm()">Finalizar</button>
 
         </form>
+    </div>
+    <div id="div-resultado" style="display: block;">
+        <p>Cadastro não Efetuado</p>
     </div>
     <h3>Consultas</h3>
     <p>Atendimento geral e especializado para cães e gatos.</p>

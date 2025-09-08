@@ -5,8 +5,15 @@
 
 <head>
     <SCript>
+
+        function fechaDivResultado(){
+            var divresultado = document.getElementById("div-resultado");
+            divresultado.style = "display:none"
+        }
+
+
         function ProcessaForm() {
-            alert("DEU CERTO CARALHO 2")
+            
             var nome = document.getElementById("nome");
             var sobrenome = document.getElementById("sobrenome");
             var cpf = document.getElementById("cpf");
@@ -14,16 +21,27 @@
             var Email = document.getElementById("Email");
             var senha = document.getElementById("senha");
             var repita_senha = document.getElementById("repita_senha");
-            console.log("nome " + nome.Value)
-            console.log("sobrenome " + sobrenome.Value)
-            console.log("cpf " + cpf.Value)
-            console.log("celular " + celular.Value)
-            console.log("Email " + Email.Value)
-            console.log("senha " + senha.Value)
-            console.log("repita_senha " + repita_senha.Value)
+            console.log("nome " + nome.value)
+            console.log("sobrenome " + sobrenome.value)
+            console.log("cpf " + cpf.value)
+            console.log("celular " + celular.value)
+            console.log("Email " + Email.value)
+            console.log("senha " + senha.value)
+            console.log("repita_senha " + repita_senha.value)
 
             var divresultado = document.getElementById("div-resultado");
-            divresultado.innerHTML = "<p>writtin on div</p>";
+            divresultado.innerHTML = 
+            "<div>" +
+                "<div onclick='fechaDivResultado();'>X</div>"+
+                "<div>nome:" + nome.value + "</div>"+
+                "<div>sobrenome:" + sobrenome.value + "</div>"+
+                "<div>cpf:" + cpf.value + "</div>"+
+                "<div>celular:" + celular.value + "</div>"+
+                "<div>email:" + Email.value + "</div>"+
+                "<div>senha:" + senha.value + "</div>"+
+                "<div>repita_senha:" + repita_senha.value + "</div>"+
+            "</div>";
+            divresultado.style = "display:block"
         }
     </SCript>
 
@@ -101,7 +119,7 @@
 
         </form>
     </div>
-    <div id="div-resultado" style="display: block;">
+    <div id="div-resultado" style="display: none;">
         <p>Cadastro não Efetuado</p>
     </div>
     <h3>Consultas</h3>

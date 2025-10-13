@@ -1,0 +1,107 @@
+body{
+    background-color: rgb(202, 245, 245);
+}
+
+.perfil{
+    width:200px;
+    height:200px;
+    border-radius:50px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.guanabara{
+    width:1000px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.guanabara2{
+    width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo-projeto{
+    text-align:center;
+}
+
+.titulo-linux{
+    text-align:center;
+}
+
+.explain{
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.return{
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.auto-explain{
+    text-align:center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.lista{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+}
+
+.lista ul{
+    margin:0px;
+    padding:0px;
+}
+
+.body2{
+    background-color: rgb(202, 245, 245);
+}
+
+.pc{
+    width:600px;
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+    border-radius:50px;
+}
+
+.linux-install{
+    width:1000px;
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.explain-linux{
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.return2{
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.titulo-py{
+    text-align:center;
+}
+.explain-py{
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.img-py{
+    width:800px;
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+}
+.return3{
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+}

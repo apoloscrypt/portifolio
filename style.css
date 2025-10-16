@@ -1,5 +1,7 @@
 body{
-    background-color: rgb(202, 245, 245);
+    background-color: rgb(175, 235, 235);
+    margin: 0;
+    padding: 0;
 }
 
 .perfil{
@@ -104,4 +106,48 @@ body{
 .return3{
     text-align:center;
     font-family:Arial, Helvetica, sans-serif;
+}
+.contato{
+    background-color:rgb(181, 252, 252);
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0px;
+}
+.contato ul{
+    margin:0px;
+    padding:0px;
+}
+#assunto{
+    width: 400px;
+    height:200px;
+}
+textarea{
+    padding:0px;
+    margin: 0px;
+    text-align:justify;
+}
+.formulario{
+    padding:10px;
+    margin:auto;
+    background-color:rgb(212, 97, 82);
+    width:450px;
+    border-radius:15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.829);
+    font-family:Arial, Helvetica, sans-serif;
+}
+.header-form{
+    text-align:center;
+}
+.explain-form{
+    text-align:center;
+}
+.return-form{
+    text-align:center;
+}
+.campo-form{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.botao{
+    background-color:rgb(216, 177, 177);
+    text-align:center;
 }
